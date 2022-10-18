@@ -62,5 +62,4 @@ window.onclick = function(event) {
 
 form.addEventListener('submit',(e)=>{
   alert("Dados enviados com sucesso!");
-  window.location.href="http://programminghead.com";
  })
