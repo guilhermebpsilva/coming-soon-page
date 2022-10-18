@@ -1,6 +1,6 @@
 # Coming soon page
 
-![preview](../coming-soon-page/github/preview.PNG)
+![preview](./.github/preview.PNG)
 
 > Desafio Rocketseat
 
