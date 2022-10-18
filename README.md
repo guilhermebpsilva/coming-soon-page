@@ -4,7 +4,7 @@
 
 > Desafio Rocketseat
 
-Projeto contruído com base no layout construído em Figma pela Rocketseat.
+Projeto contruído com base no layout disponibilizado em Figma pela Rocketseat.
 
 [🔗 Clique aqui para acessar](https://guilhermebpsilva.github.io/coming-soon-page/)
 
