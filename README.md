@@ -2,9 +2,9 @@
 
 ![preview](./.github/preview.png)
 
-> Trilha Explorer
+> Desafio Rocketseat
 
-Projeto contruído no evento Next Level Week da Rocketseat.
+Projeto contruído com base no layout construído em Figma pela Rocketseat.
 
 [🔗 Clique aqui para acessar](https://guilhermebpsilva.github.io/nlw-esports-explorer/)
 
@@ -12,6 +12,7 @@ Projeto contruído no evento Next Level Week da Rocketseat.
 
 - HTML
 - CSS
+- Javascript
 - Git e Github
 
 ## ✉ Contato
