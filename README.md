@@ -6,7 +6,7 @@
 
 Projeto contruído com base no layout construído em Figma pela Rocketseat.
 
-[🔗 Clique aqui para acessar](https://guilhermebpsilva.github.io/nlw-esports-explorer/)
+[🔗 Clique aqui para acessar](https://guilhermebpsilva.github.io/coming-soon-page/)
 
 ## 🛠 Tecnologias
 
