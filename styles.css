@@ -243,6 +243,7 @@ span {
         display: flex;
         align-items: flex-end;
         width: 100vw;
+        position: sticky;
     }
     .footer img {
         width: 100vw;
