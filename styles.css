@@ -221,7 +221,7 @@ span {
         text-align: center;
     }
     .header {
-        width: 600px;
+        width: 600vw;
         position: sticky;
     }
     .header img {
@@ -240,7 +240,7 @@ span {
         width: 60%;
     }
     .footer {
-        width: 600px;
+        width: 100vw;
         position: sticky;
     }
     .footer img {
