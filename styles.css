@@ -33,8 +33,10 @@ body {
 .rocket-img {
     grid-area: 1 / 2 / 2 / 3;
     max-width: 600px;
-    width: 80%;
     margin: 17px 0 0 0;
+}
+.rocket-img img {
+    width: 90%;
 }
 span {
     font-family: 'Poppins', sans-serif;
@@ -209,163 +211,39 @@ span {
     text-decoration: none;
     cursor: pointer;
 }
-footer {
+.footer {
     position: fixed;
 }
 
-/* @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     body {
-        min-height: 100vh;
-        min-width: auto;
-        display: flex;
-        flex-direction: column;
+        display: block;
         text-align: center;
     }
-    header img {
+    .header {
         width: 600px;
+        position: sticky;
     }
-    .section-divs {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(2, min-content);
+    .header img {
+        width: 100%;
+    }
+    .main-div {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
         align-items: center;
-        justify-items: center;
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
-        height: fit-content;
     }
     .left-text {
-        grid-area: 1 / 1 / 2 / 2;
-        width: 600px;
-        place-items: center;
-        margin: 0;
-    }
-    .rocket-img {
-        place-items: center;
-        grid-area: 2 / 1 / 3 / 2;
-        width: 60%;
-        height: auto;
-        margin: 70px 0;
+        margin: 0 auto;
     }
     .rocket-img img {
-        width: 100%;
+        width: 60%;
     }
-    .div-ready {
-        display: flex;
-        color: #6C63FF;
-        font-size: 76px;
-        font-weight: 700;
-        letter-spacing: 0.12em;
-        margin: 40px 0;
-        line-height: 84px;
-        text-align: center;
-        width: 100%;
-    }
-    .text-ready {
-        white-space: pre-line;
-    }
-    .div-timer {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(2, min-content);
-        justify-items: center;
-    }
-    .dias, .horas, .min, .seg {
-        color: #9C9AB6;
-        font-size: 24px;
-        font-weight: 300;
-        display: flex;
-    }
-    #days, #hours, #minutes, #seconds {
-        font-weight: 400;
-        font-size: 65px;
-        line-height: 108px;
-        color: #4D4C59;
-    }
-    .div-subscribe {
-        color: #9C9AB6;
-        font-size: 26px;
-        font-weight: 400;
-        margin: 40px 0 40px;
-        text-align: center;
-    }
-    .div-subscribe span {
-        white-space: pre-line;
-    }
-    #inscreva {
-        display: table;
-        margin: 0 auto;
-        background-color: #6C63FF;
-        border-radius: 10px;
-        border: 0;
-        font-family: 'Poppins', sans-serif;
-        color: #FFFF;
-        font-weight: 400;
-        font-size: 24px;
-        text-align: center;
-        width: 170px;
-        height: 50px;
-    }
-    footer {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        text-align: center;
-    }
-    footer img {
+    .footer {
         width: 600px;
-        height: 100%;
-        object-fit: cover;
+        position: sticky;
     }
-
-    .modal-content {
-        display: flex;
-        flex-direction: column;
-        font-family: 'Poppins', sans-serif;
-        text-align: center;
-        background-color: #fefefe;
-        margin: auto;
-        padding: 20px;
-        border: 1px solid #888;
-        width: 70%;
-        height: 40vh;
+    .footer img {
+        width: 100%;
     }
-    .modal-content p {
-        font-size: 24px;
-    }
-    #nome {
-        text-align: center;
-        font-family: 'Poppins', sans-serif;
-        width: 300px;
-        height: 50px;
-        border-radius: 5px;
-        border: solid 2px #6C63FF;
-        margin: 15px 0;
-        font-size: 30px;
-    }
-    #email {
-        text-align: center;
-        font-family: 'Poppins', sans-serif;
-        width: 300px;
-        height: 50px;
-        border-radius: 5px;
-        border: solid 2px #6C63FF;
-        margin-bottom: 15px;
-        font-size: 30px; 
-    }
-    #submit {
-        display: table;
-        margin: 0 auto;
-        background-color: #6C63FF;
-        border-radius: 10px;
-        border: 0;
-        font-family: 'Poppins', sans-serif;
-        color: #FFFF;
-        font-weight: 400;
-        font-size: 25px;
-        text-align: center;
-        width: 100px;
-        height: 40px;
-    }
-} */
+}
