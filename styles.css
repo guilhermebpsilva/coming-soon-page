@@ -8,30 +8,33 @@
     --purple: #6C63FF;
     --light-grey: #C8C8C8;
     --text-color: #9C9AB6;
-  }
-html, body {
-    max-height: 100vh;
 }
-.section-divs {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(1, 1fr);
+body {
+    display: inline-block;
+    text-align: center;
+}
+.header {
+    width: 100vw;
+    position: sticky;
+}
+.main-div {
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: space-evenly;
     align-items: center;
-    justify-items: center;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
 }
 .left-text {
     grid-area: 1 / 1 / 2 / 2;
-    margin-left: 123px;
-    width: 510px;
+    max-width: 600px;
+    width: 80%;
     white-space:nowrap;
 }
 .rocket-img {
     grid-area: 1 / 2 / 2 / 3;
-    width: 607px;
-    height: 435px;
-    margin: 17px 60px 0px 82px;
+    max-width: 600px;
+    width: 80%;
+    margin: 17px 0 0 0;
 }
 span {
     font-family: 'Poppins', sans-serif;
@@ -39,12 +42,16 @@ span {
 .div-ready {
     display: flex;
     color: #6C63FF;
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: 700;
     letter-spacing: 0.12em;
     margin-bottom: 25px;
     line-height: 54px;
     justify-content: center;
+}
+.text-ready {
+    white-space: pre-line;
+    text-align: center;
 }
 .div-timer {
     display: grid;
@@ -54,7 +61,7 @@ span {
 }
 .dias, .horas, .min, .seg {
     color: #9C9AB6;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 300;
     display: flex;
 }
@@ -72,7 +79,7 @@ span {
 }
 #days, #hours, #minutes, #seconds {
     font-weight: 400;
-    font-size: 68px;
+    font-size: 4.25rem;
     line-height: 108px;
     color: #4D4C59;
 }
@@ -90,7 +97,7 @@ span {
 }
 .div-subscribe {
     color: #9C9AB6;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
     margin: 20px 0 31px;
     text-align: center;
@@ -104,7 +111,7 @@ span {
     font-family: 'Poppins', sans-serif;
     color: #FFFF;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     text-align: center;
     width: 160px;
     height: 46px;
@@ -116,7 +123,7 @@ span {
 
 /* The Modal (background) */
 .modal {
-    display: none; /* display: none; */
+ /* display: none; */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
     padding-top: 100px; /* Location of the box */
@@ -136,9 +143,10 @@ span {
     text-align: center;
     background-color: #fefefe;
     margin: auto;
-    padding: 20px;
+    padding: 10px;
     border: 1px solid #888;
-    width: 40%;
+    max-width: 80%;
+    width: 500px;
 }
 #form-div {
     display: flex;
@@ -148,12 +156,11 @@ span {
 #form {
     text-align: center;
     margin: 0 auto; 
-    width:300px;
 }
 #nome {
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    width: 300px;
+    width: 70%;
     height: 25px;
     border-radius: 5px;
     border: solid 2px #6C63FF;
@@ -162,7 +169,7 @@ span {
 #email {
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    width: 300px;
+    width: 70%;
     height: 25px;
     border-radius: 5px;
     border: solid 2px #6C63FF;
@@ -179,7 +186,7 @@ span {
     font-weight: 400;
     font-size: 14px;
     text-align: center;
-    width: 80px;
+    width: 15%;
     height: 34px;
 }
 #submit:hover {
@@ -189,12 +196,12 @@ span {
   /* The Close Button */
 #close-div {
     justify-content: end;
-    height: 30px;
+    height: 50px;
 }
 .close {
     color: #aaaaaa;
     float: right;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: bold;
 }
 .close:hover, .close:focus {
