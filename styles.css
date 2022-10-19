@@ -241,14 +241,12 @@ span {
     }
     .footer {
         display: flex;
-        align-items: flex-end;
+        align-self: flex-end;
         width: 100vw;
         position: sticky;
     }
     .footer img {
         width: 100vw;
         position: sticky;
-        left: 0;
-        bottom: 0;
     }
 }
