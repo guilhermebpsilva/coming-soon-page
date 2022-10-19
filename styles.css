@@ -221,7 +221,7 @@ span {
         text-align: center;
     }
     .header {
-        width: 600vw;
+        width: 100vw;
         position: sticky;
     }
     .header img {
