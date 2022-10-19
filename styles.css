@@ -225,7 +225,7 @@ span {
         position: sticky;
     }
     .header img {
-        width: 100%;
+        width: 100vw;
     }
     .main-div {
         display: block;
@@ -244,6 +244,6 @@ span {
         position: sticky;
     }
     .footer img {
-        width: 100%;
+        width: 100vw;
     }
 }
