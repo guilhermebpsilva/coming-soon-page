@@ -243,7 +243,6 @@ span {
         display: flex;
         align-items: flex-end;
         width: 100vw;
-        position: relative;
     }
     .footer img {
         width: 100vw;
