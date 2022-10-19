@@ -240,10 +240,14 @@ span {
         width: 60%;
     }
     .footer {
+        display: flex;
         width: 100vw;
-        position: sticky;
+        position: relative;
     }
     .footer img {
         width: 100vw;
+        position: sticky;
+        left: 0;
+        bottom: 0;
     }
 }
