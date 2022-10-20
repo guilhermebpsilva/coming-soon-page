@@ -30,7 +30,7 @@ let x = setInterval(function() {
 }, 1000);
 
 
-const form = document.querySelector('form');
+const submitForm = document.querySelector('#submit');
 // Get the modal
 let modal = document.getElementById("myModal");
 
@@ -60,6 +60,10 @@ window.onclick = function(event) {
   }
 }
 
-form.addEventListener('submit',(e)=>{
+submitForm.addEventListener("click",()=>{
   alert("Dados enviados com sucesso!");
- })
+})
+
+// document.querySelector("form").addEventListener("submit", (event) => {
+//   event.preventDefault()
+// })
