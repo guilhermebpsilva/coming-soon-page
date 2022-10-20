@@ -44,26 +44,27 @@ let submit = document.getElementById("submit");
 let span = document.getElementsByClassName("close")[0];
 
 // When the user clicks the button, open the modal 
-btn.onclick = function() {
+btn.addEventListener("click", () => {
   modal.style.display = "block";
-}
+})
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() {
+span.addEventListener("click", () => {
   modal.style.display = "none";
-}
+})
 
 // When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
+window.addEventListener("click", (event) => {
   if (event.target == modal) {
     modal.style.display = "none";
   }
-}
+})
 
 submitForm.addEventListener("click",()=>{
   alert("Dados enviados com sucesso!");
+  modal.style.display = "none";
 })
 
-// document.querySelector("form").addEventListener("submit", (event) => {
-//   event.preventDefault()
-// })
+document.querySelector("form").addEventListener("submit", (event) => {
+  event.preventDefault()
+})
