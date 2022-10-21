@@ -243,11 +243,13 @@ span {
         width: 100vw;
     }
     .main-div {
+        justify-content: space-between;
         flex-direction: column;
         height: 80vh;
     }
     .left-text {
-        margin: 0 auto 20px;
+        margin: 0 0 20px;
+        width: 90%;
     }
     .div-ready {
         font-size: 7vw;
@@ -266,8 +268,5 @@ span {
     }
     .rocket-img img {
         width: 60%;
-    }
-    .footer {
-        position: fixed;
     }
 }
