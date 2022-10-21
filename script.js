@@ -30,7 +30,6 @@ let x = setInterval(function() {
 }, 1000);
 
 
-const submitForm = document.querySelector('#submit');
 // Get the modal
 let modal = document.getElementById("myModal");
 
@@ -38,7 +37,7 @@ let modal = document.getElementById("myModal");
 let btn = document.getElementById("inscreva");
 
 // Get the button that submits the data
-let submit = document.getElementById("submit");
+let submit = document.getElementById("form");
 
 // Get the <span> element that closes the modal
 let span = document.getElementsByClassName("close")[0];
@@ -60,7 +59,7 @@ window.addEventListener("click", (event) => {
   }
 })
 
-submitForm.addEventListener("click",()=>{
+submit.addEventListener("submit",()=>{
   alert("Dados enviados com sucesso!");
   modal.style.display = "none";
 })
