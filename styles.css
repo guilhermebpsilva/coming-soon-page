@@ -9,13 +9,14 @@
     --light-grey: #C8C8C8;
     --text-color: #9C9AB6;
 }
-body {
+html {
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
+    height: fit-content;
 }
 .header {
     display: flex;
@@ -262,10 +263,10 @@ span {
         font-size: 7vw;
     }
     .dias, .horas, .min, .seg {
-        font-size: 3vw;
+        font-size: 4vw;
     }
     #days, #hours, #minutes, #seconds {
-        font-size: 8vw;
+        font-size: 10vw;
     }
     .div-subscribe {
         font-size: 3vw;
