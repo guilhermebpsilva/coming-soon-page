@@ -51,7 +51,7 @@ span {
 .div-ready {
     display: flex;
     color: #6C63FF;
-    font-size: 2.25rem;
+    font-size: 5vw;
     font-weight: 700;
     letter-spacing: 0.12em;
     margin-bottom: 25px;
@@ -70,7 +70,7 @@ span {
 }
 .dias, .horas, .min, .seg {
     color: #9C9AB6;
-    font-size: 0.875rem;
+    font-size: 1.8vw;
     font-weight: 300;
     display: flex;
 }
@@ -95,7 +95,7 @@ span {
 }
 #days, #hours, #minutes, #seconds {
     font-weight: 400;
-    font-size: 4.25rem;
+    font-size: 5vw;
     line-height: 108px;
     color: #4D4C59;
 }
@@ -113,7 +113,7 @@ span {
 }
 .div-subscribe {
     color: #9C9AB6;
-    font-size: 80%;
+    font-size: 1.5vw;
     font-weight: 400;
     margin: 20px 0 31px;
     text-align: center;
@@ -242,10 +242,6 @@ span {
 }
 
 @media only screen and (max-width: 600px) {
-    body {
-        display: block;
-        text-align: center;
-    }
     .header {
         width: 100vw;
         position: sticky;
@@ -261,6 +257,18 @@ span {
     }
     .left-text {
         margin: 20px auto;
+    }
+    .div-ready {
+        font-size: 7vw;
+    }
+    .dias, .horas, .min, .seg {
+        font-size: 3vw;
+    }
+    #days, #hours, #minutes, #seconds {
+        font-size: 8vw;
+    }
+    .div-subscribe {
+        font-size: 3vw;
     }
     .rocket-img {
         margin: 30px 0;
