@@ -260,19 +260,12 @@ span {
         align-items: center;
     }
     .left-text {
-        margin: 0 auto;
+        margin: 20px auto;
+    }
+    .rocket-img {
+        margin: 30px 0;
     }
     .rocket-img img {
         width: 60%;
-    }
-    .footer {
-        display: flex;
-        align-self: flex-end;
-        width: 100vw;
-        position: sticky;
-    }
-    .footer img {
-        width: 100vw;
-        position: sticky;
     }
 }
