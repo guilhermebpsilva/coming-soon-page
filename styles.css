@@ -11,12 +11,14 @@
 }
 html {
     display: flex;
+    align-items: center;
     overflow: hidden;
     height: max-content;
 }
 .header {
     display: flex;
     position: sticky;
+    margin-bottom: -30px;
 }
 .header img {
     width: 100vw;
@@ -24,6 +26,7 @@ html {
 }
 .main-div {
     display: flex;
+    justify-content: center;
     text-align: center;
     margin: 30px auto;
     align-items: center;
