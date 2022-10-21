@@ -14,6 +14,7 @@ body {
     flex-direction: column;
     text-align: center;
     justify-content: space-between;
+    align-items: center;
     overflow: hidden;
 }
 .header {
@@ -74,16 +75,23 @@ span {
     display: flex;
 }
 .dias {
+    display: flex;
     grid-area: 1 / 1 / 2 / 2;
 }
 .horas {
+    display: flex;
     grid-area: 1 / 2 / 2 / 3;
 }
 .min {
+    display: flex;
     grid-area: 1 / 3 / 2 / 4;
 }
 .seg {
+    display: flex;
     grid-area: 1 / 4 / 2 / 5;
+}
+.days, .hours, .minutes, .seconds {
+    display: flex;
 }
 #days, #hours, #minutes, #seconds {
     font-weight: 400;
@@ -105,9 +113,13 @@ span {
 }
 .div-subscribe {
     color: #9C9AB6;
-    font-size: 0.875rem;
+    font-size: 80%;
     font-weight: 400;
     margin: 20px 0 31px;
+    text-align: center;
+}
+.text-subscribe {
+    white-space: pre-line;
     text-align: center;
 }
 #inscreva {
